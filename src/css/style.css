@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+#logout{
+    float: right;
+    size: 24px;
+    visibility:visible;
+}
+
+ /* LOGIN SECITON */
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#login {
+  background-color: #A82128;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#login:hover {
+    background-color: rgb(143, 31, 36);
+}
+
+.container {
+  margin:auto;
+  width: 30%;
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+}
+
+/* Navigation Bar */
+
+* {box-sizing: border-box;}
+
+
+
+.topnav {
+    margin-top: 40px;
+    margin:auto;
+    text-align: center;
+    margin-left: 350px;
+}
+.topnav .login-container {
+    float: right;
+}
+
+.topnav .login-container #logout {
+    padding: 16px 30px;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: rgb(230, 70, 78);
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+.topnav .login-container #logout:hover {
+    background-color:rgb(211, 56, 63);
+}
+
+/* FORM INDEX */
+
+.main{
+  position: relative;
+  margin: auto;
+  width: 60%;
+  border: 10px solid #A82128;
+  padding-bottom: 100px;
+  background-color:white;
+  margin-top: 50px;
+}
+.row .h1-inline{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 20px;
+  margin-top:10px;
+  color:black;
+}
+.topping{
+  width:50%;
+  margin-top: -30px;
+  margin-left: 25%; 
+}
+
+.h1-order{
+  text-align: center;
+  color: white;
+  background-color: #A82128;
+  margin-top:0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.select-flavor{
+  position:relative;
+  color:white;
+  font-size: 24px;
+  background-color: rgb(230, 70, 78); 
+  width:200px;
+}
+
+.div-checkout{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.div-checkout #button-checkout{
+  padding: 8px 16px;
+  background-color: rgb(230, 70, 78);
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  margin:10px;
+}
+
+#button-checkout:hover{
+  background-color:rgb(211, 56, 63);
+}
+
+.h3-topping{
+  display: inline;
+  margin-left: 10px;
+  color:black;
+}
+
+/* CHECKOUT */
+.table-checkout{
+  padding:20px;
+  margin-bottom: 50px;
+}
+.table-checkout td{
+  text-align: center;
+  padding:10px; 
+  border: 1px solid gray;
+}
+.table-checkout tr th{
+  text-align: center;
+  padding:10px;
+  font-size:24px;
+  text-align: left;
+  background-color: rgb(230, 70, 78);
+}
+.checkout-total{
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  margin-left: 20px;
+  color:black;
+  border-top: 2px solid black;
+  width:95%;
+}
+
+#button-delete{
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  background-color: rgb(230, 70, 78);
+  color: white;
+  font-size: 24px;
+}
+
+
+.table-admin{
+  padding:20px;
+  margin-bottom: 50px;
+}
+.table-admin td{
+  text-align: center;
+  padding:10px; 
+  background-color: white;
+  border: 1px solid gray;
+}
+.table-admin tr th{
+  padding:10px;
+  font-size:24px;
+  text-align: center;
+  background-color: rgb(230, 70, 78);
+}
+
+#button-admin-change{
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  background-color: rgb(230, 70, 78);
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
